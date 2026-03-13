@@ -1,0 +1,92 @@
+
+"tips_share_text"="Die beste App für Pflanzenlicht!";
+"tips_title"="Hinweis";
+"tips_ok"="OK";
+"tips_cancel"="Abbrechen";
+"tips_delete"="Löschen";
+"tips_clear"="Alle löschen";
+"tips_update_title"="Neue Version verfügbar";
+"tips_update_action"="Aktualisieren";
+"tips_share_ok"="Erfolgreich geteilt";
+"tips_share_failed"="Teilen fehlgeschlagen";
+"tips_save_success"="Erfolgreich gespeichert";
+"tips_network_error"="Netzwerk nicht verfügbar";
+"tips_product_empty"="Kein Produkt";
+"tips_restore_none"="Kein Kauf vorhanden";
+"tips_pay_success"="Erfolgreich abonniert";
+"tips_restore_success"="Erfolgreich wiederhergestellt";
+"tips_contact_ok"="E-Mail erfolgreich gesendet";
+"tips_contact_failed"="E-Mail-Versand fehlgeschlagen";
+"tips_contact_saved"="Erfolgreich gespeichert";
+"tips_success"="Erfolgreich";
+
+"home_title"="PlantBright";
+"home_ppfd_title"="PPFD";
+"home_ppfd_unit"="μmol/m²/s";
+"home_dli_title"="DLI";
+"home_dli_unit"="mol/m²/d";
+"home_lux_title"="Beleuchtungsstärke";
+"home_lux_unit"="lux";
+"home_par_meter"="PAR-Messgerät";
+"home_par_meter_info"="PAR-Messgerät  ⓘ";
+"home_dli_meter"="Tageslichtsumme";
+"home_dli_meter_info"="Tageslichtsumme  ⓘ";
+"home_lux_meter"="Luxmesser";
+"home_lux_meter_info"="Luxmesser  ⓘ";
+"home_light_source"="Lichtquelle auswählen";
+"home_light_source_fl"="FL Warmweiß";
+"home_light_source_cmh"="CMH";
+"home_light_source_white"="Weißes Licht";
+"home_light_source_sun"="Sonnenlicht";
+"home_time_hours"="%d Std.";
+
+"camera_permission_settings"="Einstellungen öffnen";
+"camera_permission_cancel"="Abbrechen";
+"camera_permission_granted"="Kameraberechtigung erteilt";
+"camera_permission_denied"="Kameraberechtigung verweigert";
+"camera_permission_enable"="Kamera aktivieren";
+"camera_permission_enable_title"="Kamerazugriff aktivieren";
+"camera_permission_enable_message"="PlantBright benötigt Kamerazugriff zum Messen des Lichts. Einstellungen öffnen, um die Kameraberechtigung zu aktivieren?";
+
+"info_modal_par_title"="PAR-Messgerät";
+"info_modal_dli_title"="Tageslichtsumme";
+"info_modal_lux_title"="Luxmesser";
+"info_modal_par_description"="PPFD (Photosynthetic Photon Flux Density) misst die Lichtmenge im PAR-Bereich, die Ihre Pflanzen in Echtzeit erhalten.\n\nDie Auswahl der richtigen Lichtquelle ist entscheidend für genaue Messungen.";
+"info_modal_dli_description"="DLI (Daily Light Integral) ist die Gesamtmenge der photosynthetisch aktiven Strahlung, die Ihre Pflanzen im Laufe des Tages aufnehmen.\n\nBitte geben Sie die Anzahl der Stunden an, in denen Ihre Pflanzen dem Licht ausgesetzt sind.";
+"info_modal_lux_description"="Lux misst die Helligkeit des Lichts, wie sie vom menschlichen Auge wahrgenommen wird.\n\nDaher ist es keine ideale Messgröße für Pflanzenlicht.";
+"info_modal_learn_more"="Mehr erfahren";
+
+"settings_title"="Einstellungen";
+"settings_share"="App teilen";
+"settings_rate"="App bewerten";
+"settings_contact"="Kontakt";
+"settings_privacy"="Datenschutzerklärung";
+"settings_manual"="Nutzungsbedingungen";
+
+// Guide
+"guide_title"="Anleitungen";
+"guide_subtitle"="Entdecken Sie unsere Anleitungen, um PlantBright optimal zu nutzen — und {your plants} zum Gedeihen zu bringen.";
+"guide_card_1_title"="Optimale Beleuchtung für Ihre Pflanzen";
+"guide_card_1_subtitle"="Alles Wissenswerte für einen erfolgreichen Start";
+"guide_card_2_title"="Lichtmessung mit PlantBright";
+"guide_card_2_subtitle"="Der Einstieg in die präzise Lichtmessung";
+"guide_card_3_title"="Messwerte verstehen";
+"guide_card_3_subtitle"="Alles über PAR, PPFD, DLI, Beleuchtungsstärke und CCT";
+"guide_card_4_title"="Warum ein Diffusor wichtig ist";
+"guide_card_4_subtitle"="Was ein Diffusor bewirkt, weshalb er nötig ist und wie Sie einen erhalten";
+"guide_card_5_title"="Korrekte Lichtquelle auswählen";
+"guide_card_5_subtitle"="So wählen Sie die passende Einstellung für präzise Messungen (z. B. PPFD, lux)";
+"guide_card_6_title"="Typische Messfehler";
+"guide_card_6_subtitle"="Die häufigsten Fehler bei der Messung und wie Sie diese vermeiden";
+"guide_card_7_title"="Messen unter Wasser";
+"guide_card_7_subtitle"="Detaillierte Anleitung für die Nutzung von PlantBright unter Wasser";
+"guide_card_8_title"="PlantBright kalibrieren";
+"guide_card_8_subtitle"="Passen Sie die Messwerte an Ihre Referenz an und optimieren Sie die Genauigkeit";
+"guide_view_button"="Ansehen";
+
+"agree_title"="🌿 Willkommen bei PlantBright!";
+"agree_desc_1"="✨ Glückwunsch — Sie haben eines der präzisesten Lichtmessgeräte für iOS in der Hand!";
+"agree_desc_2"="PlantBright wurde mit Sorgfalt und Leidenschaft entwickelt 🌱 — das Ergebnis durchdachten Designs und umfangreicher Tests, damit Ihre Pflanzen gedeihen 🌞.\n\nEs mag anfangs etwas komplex erscheinen, aber keine Sorge — folgen Sie einfach der integrierten Anleitung und Sie werden es schnell beherrschen 💡. Bitte nehmen Sie sich vor dem Start einen Moment Zeit, um unsere Nutzungsbedingungen zu lesen.";
+"agree_desc_3"="Willkommen an Bord! Falls Sie beim Nutzen der App Fragen haben, können Sie sich jederzeit an uns wenden. 🌿";
+"agree_terms"="Bedingungen ansehen";
+"agree_accept"="Akzeptieren & Weiter";

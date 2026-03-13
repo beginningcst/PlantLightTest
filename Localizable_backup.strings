@@ -1,0 +1,91 @@
+
+"tips_share_text"="Best plant lighting app!";
+"tips_title"="Tips";
+"tips_ok"="OK";
+"tips_cancel"="Cancel";
+"tips_delete"="Delete";
+"tips_clear"="Clear All";
+"tips_update_title"="New version found";
+"tips_update_action"="Update";
+"tips_share_ok"="Shared Successfully";
+"tips_share_failed"="Share Failed";
+"tips_save_success"="Saved Successfully";
+"tips_network_error"="The network is unavailable";
+"tips_product_empty"="No product";
+"tips_restore_none"="No purchase";
+"tips_pay_success"="Subscribe Successfully";
+"tips_restore_success"="Restore Successfully";
+"tips_contact_ok"="Email Sent Successfully";
+"tips_contact_failed"="Email Send Failed";
+"tips_contact_saved"="Saved Successfully";
+"tips_success"="Success";
+
+"home_title"="PlantBright";
+"home_ppfd_title"="PPFD";
+"home_ppfd_unit"="μmol/m²/s";
+"home_dli_title"="DLI";
+"home_dli_unit"="mol/m²/d";
+"home_lux_title"="Illuminance";
+"home_lux_unit"="lux";
+"home_par_meter"="PAR Meter";
+"home_par_meter_info"="PAR Meter  ⓘ";
+"home_dli_meter"="Daily Light Integral";
+"home_dli_meter_info"="Daily Light Integral  ⓘ";
+"home_lux_meter"="Illuminance Meter";
+"home_lux_meter_info"="Illuminance Meter  ⓘ";
+"home_light_source"="Select Light Source";
+"home_light_source_fl"="FL Warm";
+"home_light_source_cmh"="CMH";
+"home_light_source_white"="White Light";
+"home_light_source_sun"="Sunlight Direct";
+"home_time_hours"="%d h";
+
+"camera_permission_settings"="Open Settings";
+"camera_permission_cancel"="Cancel";
+"camera_permission_enable"="Enable Camera";
+"camera_permission_enable_title"="Enable Camera Access";
+"camera_permission_enable_message"="We need access to your camera to measure light levels for your plants. Open Settings to enable camera permission?";
+
+"info_modal_par_title"="PAR Meter";
+"info_modal_dli_title"="Daily Light Integral";
+"info_modal_lux_title"="Illuminance Meter";
+"info_modal_par_description"="PPFD (Photosynthetic Photon Flux Density) measures the amount of light in the PAR range that your plants receive in real-time.\n\nChoosing the correct light source is crucial for accurate measurements.";
+"info_modal_dli_description"="DLI (Daily Light Integral) is the total amount of photosynthetically active radiation your plants absorb throughout the day.\n\nPlease set the number of hours your plants are exposed to light.";
+"info_modal_lux_description"="Lux measures the brightness of light as perceived by the human eye.\n\nTherefore, it is not an ideal metric for plant lighting.";
+"info_modal_learn_more"="Learn More";
+
+"settings_title"="Settings";
+"settings_share"="Share App";
+"settings_rate"="Rate Us";
+"settings_contact"="Contact Us";
+"settings_privacy"="Privacy Policy";
+"settings_manual"="Terms of Use";
+
+// Guide
+"guide_title"="Guides";
+"guide_subtitle"="Check out the guides to make the most of PlantBright — and help {your plants} thrive.";
+"guide_card_1_title"="How to Optimally Light Your Plants";
+"guide_card_1_subtitle"="All you need to know to get started";
+"guide_card_2_title"="How to Measure Light With PlantBright";
+"guide_card_2_subtitle"="Get started on measuring light with PlantBright";
+"guide_card_3_title"="Measurement Values Explained";
+"guide_card_3_subtitle"="Learn about PAR, PPFD, DLI, Illuminance, and CCT";
+"guide_card_4_title"="Diffuser Required";
+"guide_card_4_subtitle"="What a diffuser is, why it's required and how to easily get one";
+"guide_card_5_title"="Choosing The Correct Light Source Setting";
+"guide_card_5_subtitle"="Learn which setting to choose to get accurate light intensity measurements (e.g. PPFD, lux)";
+"guide_card_6_title"="Common Mistakes";
+"guide_card_6_subtitle"="Common mistakes when measuring and how to avoid them";
+"guide_card_7_title"="How to Measure Under Water";
+"guide_card_7_subtitle"="Step-by-step instructions to use PlantBright under water";
+"guide_card_8_title"="How to Calibrate PlantBright";
+"guide_card_8_subtitle"="By calibrating you can align PlantBright’s reading to a reference";
+"guide_view_button"="View";
+
+"agree_title"="🌿 Welcome to PlantBright!";
+"agree_desc_1"="✨ Congratulations — you’re holding one of the most accurate light meters for iOS!";
+"agree_desc_2"="PlantBright is built with care and passion 🌱 — the result of thoughtful design and plenty of testing to help your plants thrive 🌞.\n\nIt might seem a bit complex at first, but don’t worry — just follow the in-app guide and you’ll get the hang of it in no time 💡. Before you start, please take a moment to review our Terms of Use.";
+"agree_desc_3"="Welcome aboard! If you have any questions while using the app, feel free to reach out to us anytime. 🌿";
+"agree_terms"="View Terms";
+"agree_accept"="Accept & Continue";
+

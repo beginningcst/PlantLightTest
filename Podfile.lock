@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.10.2)
+  - KeychainAccess (4.2.2)
+  - MBProgressHUD (1.2.0)
+  - MMKV (2.2.2):
+    - MMKVCore (~> 2.2.2)
+  - MMKVCore (2.2.2)
+  - SQLite.swift (0.15.4):
+    - SQLite.swift/standard (= 0.15.4)
+  - SQLite.swift/standard (0.15.4)
+  - SwiftyJSON (5.0.2)
+  - SwiftyStoreKit (0.16.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - KeychainAccess
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+  - MMKV
+  - SQLite.swift
+  - SwiftyJSON
+  - SwiftyStoreKit
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KeychainAccess
+    - MMKV
+    - MMKVCore
+    - SQLite.swift
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - YYModel
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 4a7c5f3e53cdea77c5dcb8578c2ee5acacdf6781
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  MBProgressHUD: 1b0fb447e80a0fda94808180750e8b78a07b3cd2
+  MMKV: b4802ebd5a7c68fc0c4a5ccb4926fbdfb62d68e0
+  MMKVCore: a255341a3746955f50da2ad9121b18cb2b346e61
+  SQLite.swift: a107c734115fea616a4ad31371d39f1637e8de56
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 6a1acfa3c492a614d154b63a67521e9e795d5e81
+
+COCOAPODS: 1.16.2

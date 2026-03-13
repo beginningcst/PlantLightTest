@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="PlantLight" customModuleProvider="target">
+            <connections>
+                <outlet property="bannerView" destination="tXV-w4-5NW" id="ANh-Pe-QeP"/>
+                <outlet property="tableView" destination="settings-table" id="table-outlet"/>
+                <outlet property="view" destination="settings-view" id="settings-view-outlet"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="settings-view">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="settings-title">
+                    <rect key="frame" x="20" y="68" width="374" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <color key="textColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tXV-w4-5NW">
+                    <rect key="frame" x="20" y="131" width="374" height="210"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tXV-w4-5NW" secondAttribute="height" multiplier="1280:719" id="YVV-WT-fzj"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="settings-table">
+                    <rect key="frame" x="0.0" y="337" width="414" height="525"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="settings-safe-area"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="settings-safe-area" firstAttribute="trailing" secondItem="tXV-w4-5NW" secondAttribute="trailing" constant="20" id="1Q6-NG-OAf"/>
+                <constraint firstItem="tXV-w4-5NW" firstAttribute="leading" secondItem="settings-safe-area" secondAttribute="leading" constant="20" id="8ah-Ra-sep"/>
+                <constraint firstItem="settings-title" firstAttribute="bottom" secondItem="tXV-w4-5NW" secondAttribute="top" constant="-20" id="TSO-mJ-tHE"/>
+                <constraint firstItem="tXV-w4-5NW" firstAttribute="bottom" secondItem="settings-table" secondAttribute="top" constant="4" id="gGJ-fC-KWv"/>
+                <constraint firstItem="settings-table" firstAttribute="bottom" secondItem="settings-safe-area" secondAttribute="bottom" id="table-b"/>
+                <constraint firstItem="settings-table" firstAttribute="leading" secondItem="settings-safe-area" secondAttribute="leading" id="table-l"/>
+                <constraint firstItem="settings-table" firstAttribute="trailing" secondItem="settings-safe-area" secondAttribute="trailing" id="table-r"/>
+                <constraint firstItem="settings-title" firstAttribute="leading" secondItem="settings-safe-area" secondAttribute="leading" constant="20" id="title-l"/>
+                <constraint firstItem="settings-title" firstAttribute="trailing" secondItem="settings-safe-area" secondAttribute="trailing" constant="-20" id="title-r"/>
+                <constraint firstItem="settings-title" firstAttribute="top" secondItem="settings-safe-area" secondAttribute="top" constant="20" id="title-t"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="banner.jpg" width="1280" height="719"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
